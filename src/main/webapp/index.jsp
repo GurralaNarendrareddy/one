@@ -773,7 +773,7 @@
                 img: 'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80',
                 category: 'laptops'
             },
-            {
+            {F
                 id: 3,
                 title: 'Apple Watch Series 8',
                 price: 349,
@@ -878,7 +878,7 @@
                                 <div class="price">$${p.price.toLocaleString()}</div>
                                 ${p.oldPrice ? `<div class="old-price">${p.oldPrice ? '$'+p.oldPrice.toLocaleString() : ''}</div>` : ''}
                             </div>
-                            <div class="rating">${'★Nari'.repeat(Math.round(p.rating))} <span style="font-size:12px;color:var(--muted)">(${p.reviews})</span></div>
+                            <div class="rating">${'★'.repeat(Math.round(p.rating))} <span style="font-size:12px;color:var(--muted)">(${p.reviews})</span></div>
                         </div>
                     </div>
                     <div class="product-footer">
