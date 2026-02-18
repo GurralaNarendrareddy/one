@@ -878,7 +878,7 @@
                                 <div class="price">$${p.price.toLocaleString()}</div>
                                 ${p.oldPrice ? `<div class="old-price">${p.oldPrice ? '$'+p.oldPrice.toLocaleString() : ''}</div>` : ''}
                             </div>
-                            <div class="rating">${'★'.repeat(Math.round(p.rating))} <span style="font-size:12px;color:var(--muted)">(${p.reviews})</span></div>
+                            <div class="rating">${'★Nari'.repeat(Math.round(p.rating))} <span style="font-size:12px;color:var(--muted)">(${p.reviews})</span></div>
                         </div>
                     </div>
                     <div class="product-footer">
