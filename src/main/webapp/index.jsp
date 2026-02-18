@@ -773,7 +773,7 @@
                 img: 'https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80',
                 category: 'laptops'
             },
-            {F
+            {
                 id: 3,
                 title: 'Apple Watch Series 8',
                 price: 349,
